@@ -23,7 +23,22 @@
 //   console.log('Maybe going outside isn\'t such a great idea...');
 // }
 
-const raining = false;
-if (!raining) {
-  console.log('Leave your numbrella at home!');
-}
+// const raining = false;
+// if (!raining) {
+//   console.log('Leave your numbrella at home!');
+// }
+
+const whichSchool  = function (age) {
+  if (age < 13) {
+    return ('Elementary School');
+  } else if (age >= 13 && age <= 18) {
+    return ('Secondary School');
+  } else {
+    return ('Lighthouse Labs');
+  }
+};
+
+console.log(whichSchool(17));
+
+
+
